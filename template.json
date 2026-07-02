@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "level",
+        "library",
+        "size"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nExplain the Library \"{library}\" using the following specifications:\nExplanation Level: {level}\nNumber of Lines: {size}\nInstructions:\n1. Tailor the explanation according to the selected level:\n   - Beginner: Use simple language and basic examples.\n   - Advanced: Include deeper concepts and practical usage.\n   - Expert: Include technical details, best practices, and edge cases.\n2. Focus on the selected library and provide relevant examples.\n3. Keep the explanation within approximately {size} lines.\n4. Use clear and concise language.\n5. If the topic is not related to the selected library, explain it from a general programming perspective.\nEnsure the response is accurate, easy to understand, and aligned with the selected level and length.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
